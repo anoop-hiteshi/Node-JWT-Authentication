@@ -1,0 +1,25 @@
+{
+  "name": "jwt-auth",
+  "version": "1.0.0",
+  "description": "JWT based authorization to protect route ",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon server"
+  },
+  "keywords": [
+    "JWT",
+    "authorization"
+  ],
+  "author": "Anoop patidar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
